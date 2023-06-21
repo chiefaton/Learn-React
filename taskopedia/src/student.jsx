@@ -8,7 +8,7 @@ function Student(props){
             {/* <div className = "row">Students Enrolled</div> */}
             <div className="row border">
                 < div className = "col-2">
-                    <img src={`https://ui-avatars.com/api/?name=${fullName}`} className="w-100" alt="user profile"></img>
+                    <img src={faker.image.avatar()} className="w-100" alt="user profile"></img>
                 </div>
 
                 <div className="col-10">
